@@ -1,9 +1,9 @@
-#include "dynamic_que.h"
-#include "que_ctl.h"
+#include "uart.h"
 
 int main()
 {
-    start_que_thread();
+    start_uart_thread();
+    
     while(1)
     {
         usleep(1);
